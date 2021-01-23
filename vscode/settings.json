@@ -1,0 +1,28 @@
+{
+    "vscode-neovim.neovimPath": "/usr/local/bin/nvim",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.fontFamily": "'Cascadia Code PL', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "block",
+    "editor.formatOnSave": true,
+    "workbench.editor.decorations.badges": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+}
