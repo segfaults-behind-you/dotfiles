@@ -18,6 +18,7 @@ set noerrorbells
 set nowrap
 set noswapfile
 set nobackup
+set nowritebackup
 set undodir=~/.nvim/undodir
 set undofile
 set incsearch
