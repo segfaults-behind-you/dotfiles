@@ -3,11 +3,10 @@
 let mapleader=" "
 nmap ; :
 
-" fzf.vim mappings.
-nnoremap <Leader>f :Files<CR>
-nnoremap <Leader>gf :GFiles<CR>
-noremap <Leader>pf :ProjectFiles<CR>
-nnoremap <Leader>b :Buffers<CR>
+" Telescope mappings.
+nnoremap <Leader>f :Telescope find_files<CR>
+nnoremap <Leader>gf :Telescope live_grep<CR>
+nnoremap <Leader>b :Telescope buffers<CR>
 
 " Better movement between splits.
 nmap <silent> <Leader>h :wincmd h<CR>
@@ -21,3 +20,6 @@ nmap <silent> <Leader>J <C-w>J
 nmap <silent> <Leader>K <C-w>K
 nmap <silent> <Leader>L <C-w>L
 nnoremap <Leader>e :NERDTreeToggle<CR>
+
+" Undotree
+nnoremap <F5> :UndotreeToggle<CR>
