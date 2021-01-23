@@ -11,6 +11,4 @@ Plug 'junegunn/fzf.vim'
 Plug 'OmniSharp/omnisharp-vim'
 Plug 'nickspoons/vim-sharpenup'
 Plug 'dense-analysis/ale'
-Plug 'neovim/nvim-lspconfig'
-" Plug 'nvim-lua/completion-nvim'
 call plug#end()
