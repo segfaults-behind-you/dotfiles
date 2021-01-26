@@ -1,7 +1,7 @@
 lua << EOF
 local pid = vim.fn.getpid()
 local home = os.getenv("HOME")
-local omnisharp_bin = home.."/.cache/omnisharp-vim/omnisharp-roslyn/run"
+local omnisharp_bin = home.."/omnisharp/run"
 local omnisharp_cmd = { omnisharp_bin, "--languageserver" , "--hostPID", tostring(pid) };
 
 local nvim_lsp = require('lspconfig')

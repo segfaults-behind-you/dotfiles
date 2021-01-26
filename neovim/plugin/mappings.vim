@@ -23,3 +23,9 @@ nnoremap <Leader>e :NERDTreeToggle<CR>
 
 " Undotree
 nnoremap <F5> :UndotreeToggle<CR>
+
+" Use system clipboard
+nnoremap <Leader>p "+p
+nnoremap <Leader>y "+y
+
+vnoremap <leader>P "_dP
