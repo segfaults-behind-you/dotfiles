@@ -3,10 +3,11 @@
 let mapleader=" "
 nmap ; :
 
-" Telescope mappings.
-nnoremap <Leader>f :Telescope find_files<CR>
-nnoremap <Leader>gf :Telescope live_grep<CR>
-nnoremap <Leader>b :Telescope buffers<CR>
+" fzf.vim mappings.
+nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>gf :GFiles<CR>
+nnoremap <Leader>g :RG<CR>
+nnoremap <Leader>b :Buffers<CR>
 
 " Better movement between splits.
 nmap <silent> <Leader>h :wincmd h<CR>
